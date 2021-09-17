@@ -73,11 +73,14 @@ body {
     color: #fff;
     text-decoration: none;
 }
+.app-ad-element:hover {
+    background-color: #0005;
+}
 .app-ad-element--store-image {
-    width: 3.2rem;
-    height: 3.2rem;
+    font-size: 3.2rem;
     object-fit: cover;
     margin-right: 1rem;
+    color: #fff;
 }
 .app-ad-element--content-container-h5 {
     font-weight: 200;
@@ -166,4 +169,34 @@ body {
     background-color: #000a;
     left: 0;
     top: 0;
+}
+@media screen and (max-width: 1024px) { 
+    .geral-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        min-height: 100vh;
+    }
+    .section-2 {
+        height: 50rem;
+    }
+    .section-3 {
+        height: 50rem;
+    }
+    .section-4 {
+        height: 40rem;
+    }
+    .section-5 {
+        height: 40rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .geral-container {
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+    }
+    .section-1 {
+        grid-row: unset;
+        grid-column: unset;
+    }
+    
 }
