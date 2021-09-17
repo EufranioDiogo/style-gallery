@@ -18,9 +18,7 @@ body {
     padding: 4rem 6rem;
     display: flex;
     justify-content: center;
-
-    background-image: url('../ASSETS/IMAGES/pexels-visión-de-enfoque-3341231.jpg');
-    
+    background-image: url('../ASSETS/IMAGES/pexels-visión-de-enfoque-3341231-2.jpg');
 }
 .section-1 .opacity-div {
     background-color: rgba(19, 19, 19, 0.294);
@@ -92,7 +90,7 @@ body {
 }
 .section-2 {
     background-color: blue;
-    background-image: url('../ASSETS/IMAGES/pexels-marlon-schmeiski-4033871.jpg');
+    background-image: url('../ASSETS/IMAGES/pexels-marlon-schmeiski-4033871-2.jpg');
 }
 .section-2 .opacity-div {
     background-color: rgba(255, 255, 255, 0.137);
@@ -152,14 +150,14 @@ body {
 }
 .section-4 {
     background-color: white;
-    background-image: url('../ASSETS/IMAGES/pexels-edgar-serrano-1964970.jpg');
+    background-image: url('../ASSETS/IMAGES/pexels-edgar-serrano-1964970-2.jpg');
 }
 .section-4 .opacity-div {
     background-color: rgba(251, 0, 0, 0.137);
 }
 .section-5 {
     background-color: aqua;
-    background-image: url('../ASSETS/IMAGES/3506328.jpg');
+    background-image: url('../ASSETS/IMAGES/3506328-2.jpg');
 }
 
 .opacity-div {
